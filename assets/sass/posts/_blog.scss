@@ -1,0 +1,25 @@
+.blog {
+
+	article {
+		box-shadow: 0 0 1rem 0.5rem rgba(0,0,0,0.2);
+
+		header {
+
+			h1 {
+				font-size: 1.4rem;
+			}
+		}
+	}
+
+	.post-navigation {
+		margin: 2rem 0 4rem;
+		text-align: center;
+
+		button {
+			background: $pink;
+			border: none;
+			color: $white;
+			padding: 1rem 2rem;
+		}
+	}
+}
